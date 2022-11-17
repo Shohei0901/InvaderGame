@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>InvaderGame</title>
+</head>
+<body>
+  <p>インベーダー風ゲーム : 敵を全滅させたら勝ち! 敵に撃墜されるか, 敵がボーダーラインを超えたら負け!</p>
+  <p><canvas id = "field" width="500" height="500"></canvas></p>
+  <p><span id="bigBullet"> 貫通弾 : </span></p>
+  <p><span id="kill"> 撃墜数 : </span></p>
+  <p><span id="time"> タイム[s]</span></p>
+  <p><span id="result">勝敗 : </span></p>
+  <p>
+    <button onclick="connect()">接続する</button>
+    <button id="startButton" onclick="gameStart()">Start</button>
+    <button onclick="disconnect()">切断する</button>
+  </p>
+  </body>
+</html>
